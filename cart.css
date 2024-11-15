@@ -28,16 +28,16 @@ ul.products {
         margin: 0 0 10px 0;
         padding: 0;
         width: 100%;
-        min-height: 30px;
+        min-height: 63px;
         /*background: lighten(#6D9773, 60%);*/
-        background-color: #6D9773;
-        border-radius: 3px;
+        background-color: #FFBA00;
         color: #98989b;
         position: relative;
         z-index: 1;
         display: flex;
         flex-flow: row nowrap;
         transition: all 0.5s linear;
+        border-radius: 10px;
 
         a.product-link {
             width: 100%;
@@ -56,8 +56,8 @@ ul.products {
 
                 img {
                     width: 80px;
-                    
-                    border: 1px solid #d7d7de;
+                    border-radius: 8px;
+                    border: none;
                     transition: all 0.5s linear;
                 }
             }
@@ -107,11 +107,11 @@ ul.products {
                         button.plus-button {
                             width: 25px;
                             height: 24px;
-                            border-radius: 3px;
-                            border: 1px solid #cdcdd1;
+                            border-radius: 5px;
+                            border: none;
                             background: #f0f0f9;
                             color: #75757a;
-                            font-size: 18px;
+                            font-size: 22px;
                             text-align: center;
                             vertical-align: middle;
                             line-height: 20px;
@@ -135,7 +135,7 @@ ul.products {
                             
                             &:focus {
                                 outline: none;
-                                border: 1px solid #4dc0e3;
+                                border: 1px solid #0C3B2E;
                             }
                             
                             &::-webkit-inner-spin-button,
@@ -149,7 +149,7 @@ ul.products {
                     span.price {
                         color: #fff;
                         font-weight: 500;
-                        font-size: 13px;
+                        font-size: 14px;
                         display: inline-flex;
                     }
                 }
@@ -163,7 +163,7 @@ ul.products {
         margin: 10px 10px 0 0;
         text-decoration: none;
         position: absolute;
-        top: 2px;
+        top: 0;
         right: 0;
         z-index: 2;
         display: flex;

@@ -67,6 +67,9 @@ a {
 .productss a {
     color: #0C3B2E;
 }
+.productss .card {
+    min-height: 400px;
+}
 .productss a:hover {
     color: #6D9773;
 }
